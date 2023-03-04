@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper,
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: auto;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 0.3rem 1rem;
+  border: 1px solid #000;
+  border-radius: 14px;
+  cursor: pointer;
+  color: #000;
+  transition: 1s;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
