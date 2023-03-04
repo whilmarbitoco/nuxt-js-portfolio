@@ -13,9 +13,15 @@ export default {
 </script>
 
 <style scoped>
+  footer {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 footer img {
   width: 24px;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   cursor: pointer;
   }
 </style>

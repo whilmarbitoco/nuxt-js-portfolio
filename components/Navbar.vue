@@ -2,7 +2,7 @@
       <div class="container">
         <nav>
           <div class="logo">
-            <nuxt-img src="icon.png" />
+            <nuxt-img src="coding.png" />
 
             <h1>Whilmar Bitoco</h1>
           </div>
@@ -36,6 +36,11 @@ export default {
 a {
   text-decoration: none;
   }
+
+a:hover {
+  color: #56b4c9;
+  border-bottom: 1px solid #56b4c9;
+}
 
   nav {
   margin-top: 1rem;

@@ -6,6 +6,14 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  head() {
+    return {
+      title: 'Whilmar Bitoco | Front-End Web Developer',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Welcome to my portfolio.' }
+      ]
+    }
+  }
 }
 </script>

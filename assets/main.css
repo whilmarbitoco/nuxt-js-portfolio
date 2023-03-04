@@ -28,14 +28,14 @@ nav {
 
 .btn {
   padding: 0.3rem 1rem;
-  border: 1px solid #000;
+  border: 1px solid #56b4c9;
   border-radius: 14px;
   cursor: pointer;
-  color: #000;
+  color: #56b4c9;
   transition: 1s;
 }
 
 .btn:hover {
-  background: #000;
+  background: #56b4c9;
   color: #fff;
 }

@@ -29,17 +29,11 @@ export default {
   width: 100%; /* added */
   margin: 0 auto;
 }
-  
 main {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
-}
-
-section,
-.container footer,
-.buttons {
-  display: flex;
-  justify-content: center;
+  grid-gap: 2rem; /* add a gap between the grid columns */
 }
 
 section {
@@ -50,53 +44,77 @@ section {
 
 .content-main {
   line-height: 1;
-  align-items: flex-start;
-  padding-left: 9rem;
+  align-items: center; /* center the content horizontally */
   text-transform: capitalize;
+  padding: 2rem; /* add some padding to the section */
+   /* center the text horizontally */
 }
 
 .content-main h1 {
-  font-size: 3.5rem; /* changed to relative unit */
+  font-size: 49px;
+  
 }
 
 .content-main h2 {
-  margin-left: 0;
+  font-size: 29px;
 }
 
 .content-img img {
   width: 85%;
-  max-width: 100%; /* added */
+  height: auto;
 }
 
 .buttons {
   margin-top: 1rem;
   gap: 1rem;
+  display: flex; /* add display flex to align buttons horizontally */
+  justify-content: center; /* center the buttons horizontally */
+}
+
+.btn {
+  padding: 0.5rem 0.9rem;
 }
 
 @media only screen and (max-width: 650px) {
   main {
-    justify-content: space-around;
     margin: 0 auto;
-    grid-template-columns: 1fr;
-    
+    grid-template-columns: 1fr; /* change to a single column grid */
+    grid-gap: 1rem; /* reduce the gap between the grid items */
+    justify-content: center; /* center the grid items horizontally */
+  }
+
+  section {
+    height: auto; /* remove fixed height to fit content */
   }
 
   .content-main {
-    align-items: center;
-    padding: 2rem; /* added */
+   /* padding: 1rem; */
+    align-items: center;    
   }
 
   .content-main h1 {
-    font-size: 2.3rem;
+    font-size: 35px;
   }
 
   .content-main h2 {
-    align-self: flex-start;
-    font-size: 1.2rem;
+    font-size: 19px;
+    
+  }
+
+  .content-img {
+    justify-content: center;
   }
 
   .content-img img {
-    display: none;
+    width: 100%;
+  }
+
+  .buttons {
+    margin-top: 1rem;
+    gap: 1rem;
+    
+    align-items: center; /* center the buttons horizontally */
   }
 }
+
 </style>
