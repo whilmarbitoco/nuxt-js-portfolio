@@ -13,6 +13,7 @@
     "core-js": "^3.19.3",
     "nuxt": "^2.16.2",
     "postcss-selector-parser": "^6.0.11",
+    "typewriter-vue": "^0.5.19",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",

@@ -3,7 +3,12 @@
     <main>
       <section class="content-main">
         <h2>Hello, I am</h2>
+      <typewriter>
+      
         <h1>Whilmar Bitoco</h1>
+      
+      </typewriter>
+        
         <p>A 17 Year Old Frond-End Web Developer from the philippines</p>
         <div class="buttons">
           <a href="#" class="btn">Download CV</a>
@@ -18,8 +23,14 @@
 </template>
 
 <script>
+import Typewriter from "typewriter-vue";
+
 export default {
-  name: 'Maincontent'
+  name: 'Maincontent',
+  components: {
+    Typewriter,
+  },
+  
 };
 </script>
 
@@ -52,11 +63,13 @@ section {
 
 .content-main h1 {
   font-size: 49px;
+  margin-bottom: 1rem;
   
 }
 
 .content-main h2 {
   font-size: 29px;
+  text-transform: none;
 }
 
 .content-img img {
