@@ -17,7 +17,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'coding.png' },
-		{rel: "stylesheet", type: "text/css", href:"https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css"}
     ]
   },
 
@@ -27,29 +26,31 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules:[],
-  
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/google-fonts',
-      '@nuxt/image'
+    '@nuxt/image'
   ],
 
   googleFonts: {
-    families: {
-      Poppins: {
-        wght: [600]
-      }
+  families: {
+    Roboto: {
+      wght: [300]
+    },
+    Poppins: {
+      wght: [600]
     }
-        },
+  }
+},
+
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
