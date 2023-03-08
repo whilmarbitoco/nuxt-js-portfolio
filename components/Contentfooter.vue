@@ -13,8 +13,7 @@ export default {
 </script>
 
 <style scoped>
-  footer {
-  
+  footer { 
     display: flex;
     align-items: center;
     justify-content: center;
