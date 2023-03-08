@@ -64,6 +64,7 @@ section {
 .content-main h1 {
   font-size: 49px;
   margin-bottom: 1rem;
+  color: #56b4c9;
   
 }
 

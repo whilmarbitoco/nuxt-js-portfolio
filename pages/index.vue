@@ -1,6 +1,7 @@
 <template>
 	<div>
 	<Homepage />
+  <Projects />
 	</div>
 </template>
 

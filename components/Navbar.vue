@@ -2,13 +2,13 @@
       <div class="container">
         <nav>
           <div class="logo">
-            <nuxt-img src="coding.png" />
+            <nuxt-img src="/coding.png" />
 
             <h1>Whilmar Bitoco</h1>
           </div>
           <div class="links">
             <a href="#" class="link">Home</a>
-            <a href="#" class="link">Portfolio</a>
+            <a href="#project" class="link">Portfolio</a>
             <a href="#" class="link">About</a>
             <a href="#" class="link btn">Contact</a>
           </div>
