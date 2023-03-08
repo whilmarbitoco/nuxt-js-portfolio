@@ -1,2 +1,4 @@
-# NUXT.JS LANDING PAGE
-A simple landing page built in nuxt 
+# whilmarbitoco.me
+The unofficial repository for my website.
+
+## under development 
