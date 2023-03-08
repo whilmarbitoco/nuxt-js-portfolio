@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt/builder": "^2.16.2",
     "@nuxtjs/google-fonts": "^2.0.0",
     "core-js": "^3.19.3",
     "nuxt": "^2.16.2",

@@ -42,6 +42,10 @@ a:hover {
   border-bottom: 1px solid #56b4c9;
 }
 
+.btn:hover {
+  color: #FFF;
+}
+
   nav {
   margin-top: 1rem;
   padding: 1rem;
