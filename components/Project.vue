@@ -12,9 +12,11 @@
                         </p>
                     </div>
                     <div class="card-icons">
-                        <a href="#"> demo
+                        <a href="#"> 
+                          <font-awesome-icon icon="eye"/>
                         </a>
-                        <a href="#"> code
+                        <a href="#"> 
+                          <font-awesome-icon icon="code"/>
                         </a>
                     </div>
                     

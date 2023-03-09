@@ -22,7 +22,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/main.css'
+    '~/assets/main.css',
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -32,7 +33,13 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules:[],
+  buildModules:['@nuxtjs/fontawesome'],
+  fontawesome: {
+    icons: {
+      solid: ['faEye', 'faCode']
+    
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

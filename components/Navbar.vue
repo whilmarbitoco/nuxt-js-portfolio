@@ -59,7 +59,9 @@ nav .links {
 }
 
   @media (max-width: 550px) {
-  
+  .container {
+    width: 100%;
+  }
     
   nav .logo h1 {
     display: none;
