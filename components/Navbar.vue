@@ -23,6 +23,12 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  max-width: 75rem;
+  width: 100%; /* added */
+  margin: 0 auto;
+}
+  
 .logo {
   display: flex;
   align-items: center;
@@ -59,9 +65,6 @@ nav .links {
 }
 
   @media (max-width: 550px) {
-  .container {
-    width: 100%;
-  }
     
   nav .logo h1 {
     display: none;

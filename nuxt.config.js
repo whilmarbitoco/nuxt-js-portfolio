@@ -36,7 +36,7 @@ export default {
   buildModules:['@nuxtjs/fontawesome'],
   fontawesome: {
     icons: {
-      solid: ['faEye', 'faCode']
+      solid: ['faEye', 'faCode', 'faChess', 'faBook']
     
     }
   },
