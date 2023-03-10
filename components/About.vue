@@ -4,7 +4,7 @@
     <div class="section-container">
       <section class="one">
         <div class="img-container">
-          <img src="coding.png" alt="A photo of me" />
+          <img src="about.svg" alt="A photo of me" />
         </div>
       </section>
       <section class="two">
@@ -18,8 +18,8 @@
           <ul>
             <skill-item skill="HTML" progress="80%" />
             <skill-item skill="CSS" progress="75%" />
-            <skill-item skill="JavaScript" progress="60%" />
-            <skill-item skill="Vue.js" progress="80%" />
+            <skill-item skill="Python" progress="65%" />
+            <skill-item skill="Vue.js" progress="60%" />
             <skill-item skill="Express.js" progress="70%" />
             <skill-item skill="SQLITE" progress="65%" />
           </ul>
