@@ -1,13 +1,13 @@
 <template>
   <div class="card-container">
-    <div v-for="c in count" :key="c" class="card">
+    <div v-for="l in list" :key="l.id" class="card">
       <div class="card-image">
         <img src="test.jpg" alt="project preview" />
       </div>
       <div class="card-info">
-        <h2 class="card-title">My Project</h2>
+        <h2 class="card-title">{{ l.name }}</h2>
         <p class="card-description">
-          A short description of what my project is.
+          A {{ l.company.bs }}
         </p>
       </div>
       <div class="card-actions">
@@ -28,7 +28,7 @@
 export default {
   name: "Project",
   props: {
-    count: Number,
+    list: Array,
   },
 };
 </script>

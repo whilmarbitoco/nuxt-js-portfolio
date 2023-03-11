@@ -4,22 +4,27 @@
                 <h1>Projects</h1>
                 <p>Here's some projects that I have done.</p>
             </header>
-    <Project :count="4" />
+    <Project :list="list" />
     </div>
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: 'Projects',
-
   data() {
-        return {
-            count: 6,
-            lang: 3
-        };
-    },
+    return {
+      list: []
+    }
+  },
   
-}
+  async created() {
+    const response = await axios.get("https://jsonplaceholder.typicode.com/users")
+    this.list = response.data
+    }
+  }
+
+  
 </script>
 
 <style scoped>

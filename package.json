@@ -13,6 +13,7 @@
     "@nuxt/builder": "^2.16.2",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/google-fonts": "^2.0.0",
+    "axios": "^1.3.4",
     "core-js": "^3.19.3",
     "nuxt": "^2.16.2",
     "postcss-selector-parser": "^6.0.11",
